@@ -1,0 +1,33 @@
+{
+  "name": "config-validator",
+  "version": "1.0.0",
+  "description": "Suite of tools to check our system configuration files before applying it into a real system.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node_modules/.bin/coffee validate-config.coffee",
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:delr3ves/config-validator.git"
+  },
+  "keywords": [
+    "configuration",
+    "validator",
+    "config"
+  ],
+  "author": "Sergio Arroyo <@delr3ves>",
+  "license": "The MIT License (MIT)",
+  "bugs": {
+    "url": "https://github.com/delr3ves/config-validator/issues"
+  },
+  "homepage": "https://github.com/delr3ves/config-validator",
+  "dependencies": {
+    "coffee-script": "1.7.1",
+    "optimist": "0.6.1",
+    "yamljs": "0.1.4",
+    "mime": "~1.2.11",
+    "q": "~1.0.1",
+    "better-require": "0.0.3"
+  }
+}

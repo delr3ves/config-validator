@@ -1,0 +1,10 @@
+<test>
+    <irrelevantField1>this is the irrelevant field1</irrelevantField1>
+    <irrelevantField2>this is the irrelevant field2</irrelevantField2>
+    <compossedField>
+        <irrelevantSubfield>irreevant subfield</irrelevantSubfield>
+        <listItem>1</listItem>
+        <listItem>2</listItem>
+        <listItem>3</listItem>
+    </compossedField>
+</test>

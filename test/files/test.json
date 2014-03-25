@@ -1,0 +1,8 @@
+{
+    "irrelevantField1": "this is the irrelevant field1",
+    "irrelevantField2": "this is the irrelevant field2",
+    "compossedField": {
+        "irrelevantSubfield": "irreevant subfield",
+        "listItem": [1, 2, 3]
+    }
+}
