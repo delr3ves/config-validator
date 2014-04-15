@@ -1,0 +1,33 @@
+{
+    "fields": {
+        "irrelevantField1": {
+            "type": "String",
+            "required": false,
+            "minLength": 1,
+            "maxLength": 5
+        },
+        "compossedField": {
+            "type": "Object",
+            "fields": {
+                "irrelevantSubfield": {
+                    "type": "String",
+                    "required": true
+                },
+                "listItem": {
+                    "type": "List",
+                    "items": {
+                        "type": "Integer",
+                        "minValue": 2,
+                        "maxValue": 150
+                    },
+                    "minLength": 1,
+                    "maxLength": 5
+                }
+            }
+        }
+    },
+    "complex": {
+    },
+    "connections": {
+    }
+}
